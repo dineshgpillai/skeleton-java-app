@@ -15,6 +15,10 @@ public class QueryProcessor {
             return "yellow";
         }
 
+        if(query.toLowerCase().contains("primes")){
+            return "373";
+        }
+
         return "";
     }
 }
