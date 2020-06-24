@@ -5,5 +5,5 @@ script: mvn clean verify
 
 deploy:
   provider: heroku
-  api_key: 08fa4305-056c-4509-a7c1-fb21fdf3b00d
+  api_key: 22767a38-75ed-492d-af91-0fb42d007623
   app: dineshgpillaiskeleton-java-app
