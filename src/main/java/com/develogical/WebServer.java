@@ -29,6 +29,10 @@ public class WebServer {
     server.start();
   }
 
+  private static void emptyMethod(){
+
+  }
+
   static class Api extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -36,6 +40,8 @@ public class WebServer {
       new ApiResponse(new QueryProcessor().process(query)).writeTo(resp);
     }
   }
+
+
 
   private static class RootPage extends HttpServlet {
 
