@@ -5,5 +5,5 @@ jdk:
 
 deploy:
   provider: heroku
-  api_key: 8ad2ef9a-9c5b-4147-acd1-36e2306ca367
-  app: dineshgpillai
+  api_key: 08fa4305-056c-4509-a7c1-fb21fdf3b00d
+  app: skeleton-java-app
