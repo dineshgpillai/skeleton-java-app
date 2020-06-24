@@ -21,6 +21,10 @@ public class QueryProcessor {
             return "Paris";
         }
 
+        if(query.toLowerCase().contains("Theresa May")){
+            return "2017";
+        }
+
         return "";
     }
 }
