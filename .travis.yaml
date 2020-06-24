@@ -1,1 +1,9 @@
 language: java
+jdk:
+  - openjdk8
+  script: mvn clean verify
+
+deploy:
+  provider: heroku
+  api_key: 8ad2ef9a-9c5b-4147-acd1-36e2306ca367
+  app: dineshgpillai
