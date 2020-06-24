@@ -15,8 +15,10 @@ public class QueryProcessor {
             return "yellow";
         }
 
-        if(query.toLowerCase().contains("primes")){
-            return "373";
+
+
+        if(query.toLowerCase().contains("Eiffel tower")){
+            return "Paris";
         }
 
         return "";
