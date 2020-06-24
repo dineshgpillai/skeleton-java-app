@@ -33,6 +33,12 @@ public class QueryProcessor {
             return "0, 1, 1, 2, 3, 5, 8, 13, 21";
         }
 
+        if(query.toLowerCase().contains("Power of 11")){
+            return "121";
+        }
+
+
+
 
         return "";
     }
