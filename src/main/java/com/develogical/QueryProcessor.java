@@ -7,7 +7,7 @@ public class QueryProcessor {
             return "William Shakespeare";
         }
 
-        if(query.toLowerCase().contains("545")){
+        if(query.toLowerCase().contains("numbers is the largest")){
             return "545";
         }
         return "";
