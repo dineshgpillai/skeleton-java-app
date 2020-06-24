@@ -29,6 +29,11 @@ public class QueryProcessor {
         }
 
 
+        if(query.toLowerCase().contains("Fibonacci")){
+            return "0, 1, 1, 2, 3, 5, 8, 13, 21";
+        }
+
+
         return "";
     }
 }
