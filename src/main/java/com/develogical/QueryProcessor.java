@@ -8,8 +8,8 @@ public class QueryProcessor {
         }
 
         if(query.toLowerCase().contains("49 and 45")){
-
+            return "49";
         }
-        return "49";
+        return "";
     }
 }
