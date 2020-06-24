@@ -22,8 +22,12 @@ public class QueryProcessor {
         }
 
         if(query.toLowerCase().contains("Theresa May")){
-            return "2017";
+            return "Paris";
         }
+        if(query.toLowerCase().contains("James Bond")){
+            return "Sean Connery";
+        }
+
 
         return "";
     }
